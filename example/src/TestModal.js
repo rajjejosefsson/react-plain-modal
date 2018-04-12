@@ -1,5 +1,5 @@
 import React from 'react';
-import Modal from './Modal/Modal';
+import { Modal } from 'react-plain-modal';
 
 const TestModal = ({ isOpen, onClose }) => (
   <Modal animationDurationMS="200" isOpen={isOpen} onClose={onClose}>
