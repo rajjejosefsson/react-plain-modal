@@ -18,7 +18,7 @@ const Window = (props: WindowProps) => {
   } = props;
 
   // TODO: DOC FOR CUSTOM ANIMATION
-  const windowClasses = `modal-window modal-${animation}-on-${animationState} ${windowClassName}`;
+  const windowClasses = `c-modal--window modal-${animation}-on-${animationState} ${windowClassName}`;
 
   const styles = {
     animationDuration: `${animationDurationMS}ms`,
@@ -30,7 +30,7 @@ const Window = (props: WindowProps) => {
   return (
     <div style={styles} className={windowClasses}>
       {showCloseButton && (
-        <button onClick={onClose} className="modal-close">
+        <button onClick={onClose} className="c-modal--close">
           <CloseIcon />
         </button>
       )}

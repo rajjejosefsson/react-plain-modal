@@ -89,7 +89,7 @@ class Modal extends React.Component<ModalProps, ModalState> {
         style={{
           animationDuration: `${animationDurationMS}ms`,
         }}
-        className={`modal modal-fade-on-${animationState} ${className}`}
+        className={`c-modal modal-fade-on-${animationState} ${className}`}
         onAnimationEnd={this.onAnimationEnd}
         tabIndex={-1}
         onKeyUp={this.onEsc}

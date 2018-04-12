@@ -1,4 +1,4 @@
-.modal-window {
+.c-modal--window {
   position: absolute;
   top: 0;
   left: 0;
@@ -14,11 +14,11 @@
   box-shadow: 0 1px 4px 0 rgba(41, 51, 57, 0.5);
 }
 
-.modal-window:focus {
+.c-modal--window:focus {
   outline: none;
 }
 
-.modal-close {
+.c-modal--close {
   cursor: pointer;
   background-color: transparent;
   position: absolute;
@@ -30,7 +30,7 @@
   border: none;
 }
 
-.modal-close:hover:before,
-.modal-close:hover:after {
+.c-modal--close:hover:before,
+.c-modal--close:hover:after {
   background: rgb(15, 15, 15);
 }

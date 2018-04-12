@@ -8,7 +8,7 @@ const Backdrop: React.StatelessComponent<BackdropProps> = ({
   onClose,
 }) => (
   <div
-    className={`modal-backdrop ${backdropClassName || ''}`}
+    className={`c-modal--backdrop ${backdropClassName || ''}`}
     style={{
       ...backdropStyles,
     }}
